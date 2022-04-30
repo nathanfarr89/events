@@ -32,7 +32,7 @@ export default function Home() {
 
   if (loading) return <p>Loading...</p>
 
-  if (error) return <p>Error!</p>
+  if (error) return <p>Error Loading App</p>
 
   return (
     <div className="flex flex-col min-h-screen py-2">
